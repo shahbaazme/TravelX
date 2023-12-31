@@ -1,0 +1,11 @@
+h1{
+
+    color: blue;
+}
+
+@media (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+      color: blue;
+    }
+  }
