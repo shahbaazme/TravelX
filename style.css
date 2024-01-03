@@ -574,6 +574,10 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.com_card {
+  width: 33%;
+}
+
 .com_img1 {
   background-image: url(Frame\ 69.png);
   background-size: cover;
@@ -907,9 +911,7 @@ h1 {
   .pgh {
     font-size: 12px;
   }
-}
 
-@media (max-width: 320px) {
   .hero_section {
     width: 100%;
   }
@@ -960,6 +962,116 @@ h1 {
   }
 
   .charity_container {
+  }
+
+  .tag_text {
+    display: none;
+  }
+
+  .footer_list {
+    display: none;
+  }
+
+  .com_card {
+    width: 100%;
+  }
+
+  .com_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search {
+    width: 80%;
+  }
+
+  .hero_btn {
+    display: block;
+  }
+
+  .search img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .navbar {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+  }
+
+  .list_wrapper {
+    display: none;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 435px) {
+  .hero_btn {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero_section {
+    width: 100%;
+  }
+
+  .sub_heading {
+    font-size: 18px;
+  }
+
+  .cta_container {
+    padding: 40px 20px;
+  }
+
+  .slider_btn {
+    display: none;
+  }
+
+  .cta_txt .heading {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .tags {
+    display: none;
+  }
+
+  .search {
+    padding: 12px 24px;
+  }
+
+  .hero_txt {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .container {
+    margin-top: 85px;
+    margin-bottom: 20px;
+    height: 100vh;
+  }
+
+  .s1 {
+    width: 100%;
+  }
+
+  .product_container {
+    margin: 12px 15px 12px 15px;
   }
 
   .tag_text {
